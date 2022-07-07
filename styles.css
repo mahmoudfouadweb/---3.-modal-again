@@ -13,6 +13,7 @@ body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 1;
+  background-color: #005490;
 }
 
 :root {
@@ -26,18 +27,55 @@ body {
   --dark-grey: #222831;
 }
 
-
 /**************************/
 /* STYLES */
 /**************************/
+.main {
+  background-color: #fff;
+  padding: 4.4rem;
+  width: 40rem;
+  gap: 1.6rem;
+  height: 15rem;
+}
 
+.input {
+  width: 70%;
+  height: 2.4rem;
+  border: none;
+  border-bottom: 3px solid #db6400;
+}
+
+.input::placeholder {
+  color: #999;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  height: 3rem;
+  background-color: #9d0191;
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 11px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #f1b8ec;
+  color: #000;
+}
 /**************************/
 /* GENERAL  COMPONENT STYLES */
 /**************************/
 .container {
-  display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .flex {
