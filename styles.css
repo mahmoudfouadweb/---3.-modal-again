@@ -44,6 +44,10 @@ body {
   border: none;
   border-bottom: 3px solid #db6400;
   stroke: none;
+  outline: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
 }
 
 .input::placeholder {
@@ -54,7 +58,7 @@ body {
 }
 
 .btn {
-  margin-left: 1.6rem;
+  margin-left: 1.5rem;
   display: inline-block;
   height: 3rem;
   background-color: #9d0191;
